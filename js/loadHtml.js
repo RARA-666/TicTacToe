@@ -1,16 +1,15 @@
-class loadHead{
+class LoadHead {
     constructor() {
-        etch("../header.html")
-        .then(r => r.text())
-        .then(t => document.getElementById("target").innerHTML = t);
+        fetch("html/temp/header.html")
+            .then(r => r.text())
+            .then(t => document.getElementById("head_target").innerHTML = t);
     }
 }
 
-class loadBottom{
+class LoadBottom {
     constructor() {
-        etch("../bottom.html")
-        .then(r => r.text())
-        .then(t => document.getElementById("target").innerHTML = t);
+        fetch("html/temp/bottom.html")
+            .then(r => r.text())
+            .then(t => document.getElementById("bottom_target").innerHTML = t);
     }
 }
-

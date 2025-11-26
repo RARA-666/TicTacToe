@@ -1,0 +1,37 @@
+body{
+    background-color: bisque;
+}
+
+.Title{
+    margin-left: 15%;
+    margin-top: 3%;
+    width: 70%;
+    height: 10%;
+    background-color: blanchedalmond;
+    
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    font-size: 5vh;
+}
+
+.mainPage{
+    margin-left: 15%;
+    width: 70%;
+    height: 70%;
+    background-color: blanchedalmond;
+    
+    display: flex;
+}
+
+.Bottom{
+    margin-left: 15%;
+    width: 70%;
+    height: 10%;
+    background-color: blanchedalmond;
+    
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    font-size: 2vh;
+}
